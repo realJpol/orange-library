@@ -1,7 +1,7 @@
 # Foreword
 I'm a self-thought IT enthusiast who runs his own Team Fortress 2 server and works a lot with anything Source Engine-related. I created this repository as a library of my work available to everyone for free! Everything you find here is something I made/assembled and instead of locking it away from others because "when I had to waste time doing this, why shouldn't others?" it's available for download.
 # Notice
-Although free, most of the things I offer here are NOT made by me as I only made it plug n' play to time of others! If you disagree with your content being hosted here, let me know and I'll remove it immediately
+Although free, most of the things I offer here are NOT made by me as I only made it plug n' play to save time for others! If you disagree with your content being hosted here, let me know and I'll remove it immediately
 
 # Downloads explanation
 * Hexed player models
