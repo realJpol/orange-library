@@ -1,0 +1,57 @@
+# [Model Name]
+
+## Description
+This folder contains the hexed version of the **[Original Model Name]** for use with Model Manager in Team Fortress 2.
+
+---
+
+## Original Model Information
+- **Original Model Name:** [Name of the model]  
+- **Author(s):** [Author's name or team]  
+- **Link to Original Model:** [URL to the original model]  
+
+---
+
+## File Structure
+The following file structure is used for this model to ensure compatibility with Model Manager:
+
+```
+models/
+    player/
+        [class_name]/
+            [model_files]
+materials/
+    models/
+        player/
+            [class_name]/
+                [texture_files]
+```
+
+- **`models/` Directory:** Contains the model files (`.mdl`, `.vtx`, `.vvd`, etc.).  
+- **`materials/` Directory:** Contains the corresponding texture files (`.vtf`, `.vmt`, etc.).
+
+Ensure you place the contents of this folder in the correct directories of your server or Model Manager setup to avoid issues.
+
+---
+
+## Usage
+1. Place the **`models/`** and **`materials/`** folders from this package into your TF2 server's custom directory or the appropriate directory for Model Manager.
+2. Edit your Model Manager configuration file to reference this model. For example:
+   ```json
+   {
+       "model_name": "[Model Name]",
+       "class": "[class_name]",
+       "path": "models/player/[class_name]/[model_name].mdl"
+   }
+   ```
+3. Restart the server to apply the changes.
+
+---
+
+## Disclaimer
+This hexed model is a modification of the original model. All credits for the original creation go to **[Author's Name]**. If there are any issues or if you would like your model removed from this repository, please contact me directly.
+
+---
+
+## Contact
+For questions or issues, please contact me at: [Your Contact Information].
